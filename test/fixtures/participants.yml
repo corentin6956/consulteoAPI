@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  interlocuteur_id: 1
+  utilisateur_id: 1
+  echange_id: 1
+
+two:
+  interlocuteur_id: 1
+  utilisateur_id: 1
+  echange_id: 1

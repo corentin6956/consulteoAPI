@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  nom: MyString
+  client: false
+  adresse_postale: MyText
+  activites: MyText
+
+two:
+  nom: MyString
+  client: false
+  adresse_postale: MyText
+  activites: MyText

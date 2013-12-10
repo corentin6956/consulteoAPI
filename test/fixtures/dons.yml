@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  nom: MyString
+  montant: 1.5
+  date_offert: 2013-12-10
+
+two:
+  nom: MyString
+  montant: 1.5
+  date_offert: 2013-12-10

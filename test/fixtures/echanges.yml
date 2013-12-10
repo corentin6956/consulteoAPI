@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  nature: MyString
+  cr: MyText
+  date_ech: 2013-12-10
+
+two:
+  nature: MyString
+  cr: MyText
+  date_ech: 2013-12-10
