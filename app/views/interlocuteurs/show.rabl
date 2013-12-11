@@ -1,18 +1,18 @@
-# app/views/users/show.rabl
+# app/views/interlocuteurs/show.rabl
 object @interlocuteur
  
 # Declare the properties to include
-attributes :name, :age
+attributes :nom, :prenom, :date_naissance, :negociation, :caractere, :discussion, :biographie, :interets
  
 # Alias 'age' to 'years_old'
 #attributes :age => :years_old
  
 # Include a custom node with full_name for user
-#node :full_name do |user|
-#  [user.first_name, user.last_name].join(" ")
-#end
+node :denomination do |interlocuteur|
+  [interlocuteur.prenom, interlocuteur.nom].join(" ")
+end
  
-# Include a custom node related to if the user can drink
-node :can_drink do |interlocuteur|
-  interlocuteur.age >= 21
+# Ajouter les infos sur le RA en charge
+child :utilisateur do
+  extends "utilisateurs/show"
 end

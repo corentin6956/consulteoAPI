@@ -1,8 +1,8 @@
-# app/views/interlocuteurs/show.rabl
-object @interlocuteurs
+# app/views/utilisateurs/show.rabl
+object @utilisateur
  
 # Reuse the show template definition
-extends "interlocuteurs/show"
+extends "utilisateurs/show"
  
 # Let's add an "id" resource for the index action
 attributes :id

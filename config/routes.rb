@@ -1,4 +1,5 @@
 ConsulteoAPI::Application.routes.draw do
+  resources :utilisateurs
   resources :interlocuteurs
   resources :postes, :only => [:index]
   # The priority is based upon order of creation: first created -> highest priority.
