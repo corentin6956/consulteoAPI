@@ -1,4 +1,5 @@
 ConsulteoAPI::Application.routes.draw do
+  root :to => "home#index"
   resources :utilisateurs
   resources :interlocuteurs
   resources :postes, :only => [:index]

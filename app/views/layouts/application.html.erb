@@ -1,14 +1,40 @@
 <!DOCTYPE html>
-<html>
+<html data-ng-app="consulteoApp">
 <head>
-  <title>ConsulteoAPI</title>
+  <meta charset="utf-8">
+  <title>Consulteo</title>
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
+  <link rel="stylesheet" href="angapp/css/app.css"/>
+  <link rel="stylesheet" href="angapp/css/bootstrap.css" />
+  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
 </head>
+
 <body>
 
 <%= yield %>
 
-</body>
+
+ 
+
+
+    <!-- In production use:
+		<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
+	-->
+	  <script src="angapp/lib/angular/angular.js"></script>
+	  <script src="angapp/lib/angular/angular-route.js"></script>
+	  <script src="angapp/lib/angular/angular-resource.js"></script>
+	  <script src="angapp/js/app.js"></script>
+	  <script src="angapp/js/services.js"></script>
+	  <script src="angapp/js/controllers.js"></script>
+	  <script src="angapp/js/filters.js"></script>
+	  <script src="angapp/js/directives.js"></script>
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="angapp/lib/bootstrap/bootstrap.min.js"></script>
+  </body>
 </html>
